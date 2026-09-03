@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>LUXORA — Premium Fashion</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Decorative Background -->
+<div class="bg-orb orb-one"></div>
+<div class="bg-orb orb-two"></div>
+<div class="bg-orb orb-three"></div>
+
+<!-- Custom Cursor -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+  <a href="#" class="brand">
+    LUXORA
+  </a>
+
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#new">New Arrivals</a>
+    <a href="#about">Our Story</a>
+  </nav>
+
+  <div class="nav-actions">
+
+    <button class="icon-btn search-toggle">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+
+    <button class="icon-btn">
+      <i class="fa-regular fa-heart"></i>
+    </button>
+
+    <button class="icon-btn cart-button">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span class="cart-count">0</span>
+    </button>
+
+    <button class="mobile-menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+  </div>
+
+</header>
+
+<!-- SEARCH PANEL -->
+
+<div class="search-panel">
+
+  <div class="search-container">
+
+    <i class="fa-solid fa-magnifying-glass"></i>
+
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search premium fashion..."
+    >
+
+    <button class="search-close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+  </div>
+
+</div>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <div class="hero-tag">
+      <span></span>
+      SPRING / SUMMER 2026
+    </div>
+
+    <h1>
+      Wear Your
+      <span>Signature.</span>
+    </h1>
+
+    <p>
+      Timeless silhouettes. Refined fabrics. Effortless confidence.
+      Discover premium fashion crafted for people who refuse to blend in.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#collection" class="btn btn-primary">
+        Explore Collection
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+      <button class="btn btn-glass">
+        <i class="fa-solid fa-play"></i>
+        View Campaign
+      </button>
+
+    </div>
+
+    <div class="hero-statistics">
+
+      <div>
+        <strong>120+</strong>
+        <span>Exclusive Pieces</span>
+      </div>
+
+      <div>
+        <strong>28</strong>
+        <span>Countries</span>
+      </div>
+
+      <div>
+        <strong>4.9</strong>
+        <span>Customer Rating</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- HERO IMAGE -->
+
+  <div class="hero-visual">
+
+    <div class="hero-glass-card">
+
+      <img
+        src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=90"
+        alt="Premium Fashion"
+      >
+
+      <div class="floating-product-info">
+
+        <span>FEATURED LOOK</span>
+
+        <div>
+          <strong>Modern Noir</strong>
+          <span>$189</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="floating-badge badge-one">
+      <i class="fa-solid fa-gem"></i>
+      Premium Fabric
+    </div>
+
+    <div class="floating-badge badge-two">
+      <i class="fa-solid fa-leaf"></i>
+      Sustainable
+    </div>
+
+  </div>
+
+  <div class="scroll-indicator">
+    <span>SCROLL</span>
+    <div></div>
+  </div>
+
+</section>
+
+<!-- ================= MARQUEE ================= -->
+
+<section class="marquee">
+
+  <div class="marquee-track">
+
+    <span>PREMIUM FASHION</span>
+    <i class="fa-solid fa-star"></i>
+
+    <span>TIMELESS STYLE</span>
+    <i class="fa-solid fa-star"></i>
+
+    <span>EXCEPTIONAL QUALITY</span>
+    <i class="fa-solid fa-star"></i>
+
+    <span>PREMIUM FASHION</span>
+    <i class="fa-solid fa-star"></i>
+
+    <span>TIMELESS STYLE</span>
+    <i class="fa-solid fa-star"></i>
+
+    <span>EXCEPTIONAL QUALITY</span>
+    <i class="fa-solid fa-star"></i>
+
+  </div>
+
+</section>
+
+<!-- ================= COLLECTION ================= -->
+
+<section class="collection section" id="collection">
+
+  <div class="section-heading">
+
+    <div>
+
+      <span class="eyebrow">
+        CURATED FOR YOU
+      </span>
+
+      <h2>
+        The Essential
+        <em>Collection</em>
+      </h2>
+
+    </div>
+
+    <p>
+      Statement pieces designed with exceptional materials,
+      meticulous detailing and contemporary silhouettes.
+    </p>
+
+  </div>
+
+  <!-- FILTER -->
+
+  <div class="filter-wrapper">
+
+    <div class="filters">
+
+      <button class="filter-btn active" data-filter="all">
+        All
+      </button>
+
+      <button class="filter-btn" data-filter="men">
+        Men
+      </button>
+
+      <button class="filter-btn" data-filter="women">
+        Women
+      </button>
+
+      <button class="filter-btn" data-filter="outerwear">
+        Outerwear
+      </button>
+
+    </div>
+
+    <select id="sortProducts">
+
+      <option value="default">
+        Featured
+      </option>
+
+      <option value="low">
+        Price: Low to High
+      </option>
+
+      <option value="high">
+        Price: High to Low
+      </option>
+
+    </select>
+
+  </div>
+
+  <!-- PRODUCTS -->
+
+  <div class="product-grid" id="productGrid">
+
+    <!-- Product 1 -->
+
+    <article
+      class="product-card"
+      data-category="women"
+      data-price="149"
+    >
+
+      <div class="product-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=900&q=85"
+          alt="Silk Evening Set"
+        >
+
+        <span class="product-label">
+          NEW
+        </span>
+
+        <button class="wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <button
+          class="quick-view"
+          data-name="Silk Evening Set"
+          data-price="$149"
+          data-image="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=1200&q=90"
+        >
+          Quick View
+        </button>
+
+      </div>
+
+      <div class="product-info">
+
+        <div>
+          <p>Women / Signature</p>
+          <h3>Silk Evening Set</h3>
+        </div>
+
+        <strong>$149</strong>
+
+      </div>
+
+    </article>
+
+    <!-- Product 2 -->
+
+    <article
+      class="product-card"
+      data-category="men outerwear"
+      data-price="229"
+    >
+
+      <div class="product-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=900&q=85"
+          alt="Urban Wool Coat"
+        >
+
+        <span class="product-label dark">
+          LIMITED
+        </span>
+
+        <button class="wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <button
+          class="quick-view"
+          data-name="Urban Wool Coat"
+          data-price="$229"
+          data-image="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?auto=format&fit=crop&w=1200&q=90"
+        >
+          Quick View
+        </button>
+
+      </div>
+
+      <div class="product-info">
+
+        <div>
+          <p>Men / Outerwear</p>
+          <h3>Urban Wool Coat</h3>
+        </div>
+
+        <strong>$229</strong>
+
+      </div>
+
+    </article>
+
+    <!-- Product 3 -->
+
+    <article
+      class="product-card"
+      data-category="women"
+      data-price="119"
+    >
+
+      <div class="product-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85"
+          alt="Minimalist Dress"
+        >
+
+        <button class="wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <button
+          class="quick-view"
+          data-name="Minimalist Dress"
+          data-price="$119"
+          data-image="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=90"
+        >
+          Quick View
+        </button>
+
+      </div>
+
+      <div class="product-info">
+
+        <div>
+          <p>Women / Essentials</p>
+          <h3>Minimalist Dress</h3>
+        </div>
+
+        <strong>$119</strong>
+
+      </div>
+
+    </article>
+
+    <!-- Product 4 -->
+
+    <article
+      class="product-card"
+      data-category="men"
+      data-price="89"
+    >
+
+      <div class="product-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=900&q=85"
+          alt="Premium Linen Shirt"
+        >
+
+        <button class="wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <button
+          class="quick-view"
+          data-name="Premium Linen Shirt"
+          data-price="$89"
+          data-image="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&fit=crop&w=1200&q=90"
+        >
+          Quick View
+        </button>
+
+      </div>
+
+      <div class="product-info">
+
+        <div>
+          <p>Men / Essentials</p>
+          <h3>Premium Linen Shirt</h3>
+        </div>
+
+        <strong>$89</strong>
+
+      </div>
+
+    </article>
+
+    <!-- Product 5 -->
+
+    <article
+      class="product-card"
+      data-category="women outerwear"
+      data-price="189"
+    >
+
+      <div class="product-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85"
+          alt="Leather Jacket"
+        >
+
+        <span class="product-label">
+          TRENDING
+        </span>
+
+        <button class="wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <button
+          class="quick-view"
+          data-name="Signature Leather Jacket"
+          data-price="$189"
+          data-image="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1200&q=90"
+        >
+          Quick View
+        </button>
+
+      </div>
+
+      <div class="product-info">
+
+        <div>
+          <p>Women / Outerwear</p>
+          <h3>Signature Leather Jacket</h3>
+        </div>
+
+        <strong>$189</strong>
+
+      </div>
+
+    </article>
+
+    <!-- Product 6 -->
+
+    <article
+      class="product-card"
+      data-category="men"
+      data-price="129"
+    >
+
+      <div class="product-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1555069519-127aadedf1ee?auto=format&fit=crop&w=900&q=85"
+          alt="Modern Casual Set"
+        >
+
+        <button class="wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+
+        <button
+          class="quick-view"
+          data-name="Modern Casual Set"
+          data-price="$129"
+          data-image="https://images.unsplash.com/photo-1555069519-127aadedf1ee?auto=format&fit=crop&w=1200&q=90"
+        >
+          Quick View
+        </button>
+
+      </div>
+
+      <div class="product-info">
+
+        <div>
+          <p>Men / Contemporary</p>
+          <h3>Modern Casual Set</h3>
+        </div>
+
+        <strong>$129</strong>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+<!-- ================= FEATURE BANNER ================= -->
+
+<section class="feature-banner" id="new">
+
+  <div class="feature-image">
+
+    <img
+      src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=90"
+      alt="Fashion Campaign"
+    >
+
+  </div>
+
+  <div class="feature-overlay"></div>
+
+  <div class="feature-content">
+
+    <span>
+      THE EDIT / 2026
+    </span>
+
+    <h2>
+      Elegance Isn't
+      <em>Optional.</em>
+    </h2>
+
+    <p>
+      Explore limited-run pieces made for moments
+      that deserve something extraordinary.
+    </p>
+
+    <a href="#collection" class="btn light-btn">
+      Shop The Edit
+      <i class="fa-solid fa-arrow-right"></i>
+    </a>
+
+  </div>
+
+</section>
+
+<!-- ================= BENEFITS ================= -->
+
+<section class="benefits">
+
+  <div class="benefit-card">
+
+    <div class="benefit-icon">
+      <i class="fa-solid fa-truck-fast"></i>
+    </div>
+
+    <h3>Worldwide Delivery</h3>
+
+    <p>
+      Complimentary premium delivery on qualifying orders.
+    </p>
+
+  </div>
+
+  <div class="benefit-card">
+
+    <div class="benefit-icon">
+      <i class="fa-solid fa-rotate-left"></i>
+    </div>
+
+    <h3>Easy Returns</h3>
+
+    <p>
+      Hassle-free returns within 30 days of delivery.
+    </p>
+
+  </div>
+
+  <div class="benefit-card">
+
+    <div class="benefit-icon">
+      <i class="fa-solid fa-shield-halved"></i>
+    </div>
+
+    <h3>Secure Payment</h3>
+
+    <p>
+      Your purchases are protected with encrypted checkout.
+    </p>
+
+  </div>
+
+  <div class="benefit-card">
+
+    <div class="benefit-icon">
+      <i class="fa-solid fa-headset"></i>
+    </div>
+
+    <h3>Personal Styling</h3>
+
+    <p>
+      Expert style assistance whenever inspiration is needed.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+  <div>
+
+    <span class="eyebrow">
+      THE INNER CIRCLE
+    </span>
+
+    <h2>
+      Stay in the <em>know.</em>
+    </h2>
+
+    <p>
+      New collections, private releases and style inspiration.
+    </p>
+
+  </div>
+
+  <form id="newsletterForm">
+
+    <input
+      type="email"
+      placeholder="Your email address"
+      required
+    >
+
+    <button type="submit">
+      Join Now
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+
+  </form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="about">
+
+  <div class="footer-top">
+
+    <div class="footer-brand">
+
+      <h2>LUXORA</h2>
+
+      <p>
+        Modern luxury shaped by timeless design,
+        premium materials and uncompromising attention
+        to detail.
+      </p>
+
+      <div class="socials">
+
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-pinterest-p"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h4>Shop</h4>
+
+      <a href="#">New Arrivals</a>
+      <a href="#">Women</a>
+      <a href="#">Men</a>
+      <a href="#">Accessories</a>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h4>Support</h4>
+
+      <a href="#">Contact</a>
+      <a href="#">Shipping</a>
+      <a href="#">Returns</a>
+      <a href="#">Size Guide</a>
+
+    </div>
+
+    <div class="footer-column">
+
+      <h4>Company</h4>
+
+      <a href="#">Our Story</a>
+      <a href="#">Journal</a>
+      <a href="#">Careers</a>
+      <a href="#">Sustainability</a>
+
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+
+    <p>
+      © 2026 LUXORA. All rights reserved.
+    </p>
+
+    <div>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- ================= QUICK VIEW MODAL ================= -->
+
+<div class="modal" id="productModal">
+
+  <div class="modal-backdrop"></div>
+
+  <div class="modal-content">
+
+    <button class="modal-close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="modal-product-image" id="zoomContainer">
+
+      <img
+        id="modalImage"
+        src=""
+        alt="Product"
+      >
+
+      <div class="zoom-hint">
+        <i class="fa-solid fa-magnifying-glass-plus"></i>
+        Hover to zoom
+      </div>
+
+    </div>
+
+    <div class="modal-details">
+
+      <span class="eyebrow">
+        LUXORA SIGNATURE
+      </span>
+
+      <h2 id="modalName">
+        Product
+      </h2>
+
+      <div class="rating">
+        ★★★★★
+        <span>4.9 (124 reviews)</span>
+      </div>
+
+      <h3 id="modalPrice">
+        $0
+      </h3>
+
+      <p>
+        Crafted using carefully selected premium materials,
+        designed for comfort, longevity and contemporary elegance.
+      </p>
+
+      <div class="option-title">
+        SELECT SIZE
+      </div>
+
+      <div class="sizes">
+
+        <button>S</button>
+        <button class="active">M</button>
+        <button>L</button>
+        <button>XL</button>
+
+      </div>
+
+      <div class="modal-actions">
+
+        <button class="add-cart">
+          Add To Bag
+          <i class="fa-solid fa-bag-shopping"></i>
+        </button>
+
+        <button class="modal-wishlist">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+
+      </div>
+
+      <div class="product-services">
+
+        <span>
+          <i class="fa-solid fa-truck"></i>
+          Free premium shipping
+        </span>
+
+        <span>
+          <i class="fa-solid fa-arrow-rotate-left"></i>
+          30-day returns
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Toast -->
+
+<div class="toast" id="toast">
+  <i class="fa-solid fa-circle-check"></i>
+  <span>Added to your bag</span>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
